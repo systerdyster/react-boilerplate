@@ -5,9 +5,12 @@
   "main": "./src/index.tsx",
   "scripts": {
     "build": "webpack --mode production --config webpack.config.prod.js",
-    "start": "webpack-dev-server --mode development --config webpack.config.dev.js"
+    "start": "webpack-dev-server --mode development --config webpack.config.dev.js",
+    "version": "npm-check --update"
   },
-  "repository": { "url": "https://github.com/systerdyster/react-boilerplate.git" },
+  "repository": {
+    "url": "https://github.com/systerdyster/react-boilerplate.git"
+  },
   "author": "Fredrik Gärdin",
   "license": "MIT",
   "devDependencies": {
@@ -19,6 +22,7 @@
     "css-loader": "^3.4.2",
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.9.0",
+    "npm-check": "^5.9.2",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
